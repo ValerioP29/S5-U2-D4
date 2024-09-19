@@ -1,0 +1,31 @@
+.hero-section {
+  background-color: #7153fa;
+  background-size: cover; /* Fa sì che l'immagine copra l'intera sezione */
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.overlay {
+  text-align: center;
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Sfondo trasparente scuro per migliorare la leggibilità */
+  border-radius: 10px;
+}
+
+/* Pulsanti */
+.btn {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+.btn-2 {
+  background-color: #7bc999;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+}
